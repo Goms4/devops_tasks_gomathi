@@ -1,0 +1,13 @@
+{
+  "name": "jira-ticket-exporter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Export Jira Cloud issues assigned to the authenticated user, including attachments.",
+  "scripts": {
+    "export": "node src/export.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
