@@ -1,0 +1,21 @@
+2. Duplicate Record Analysis
+
+Objective: Identify duplicate records and repeated order IDs to distinguish genuine duplicate transactions from legitimate multiple items belonging to the same order.
+
+Methods Used:
+
+df.duplicated().sum() to count completely duplicated rows.
+
+df[df.duplicated(keep=False)] to display all occurrences of duplicate records.
+
+df['OrderID'].duplicated().sum() to identify repeated order IDs.
+
+df['OrderID'].value_counts() to examine order ID frequencies.
+
+df.drop_duplicates() to remove genuine duplicate records.
+
+Findings:
+
+The original dataset contained 20 rows, including two identical records for order ORD102. Both records contained the same customer, city, product, quantity, price, order date, and payment method. Therefore, the repeated record was treated as a duplicate rather than a separate transaction.
+
+The drop_duplicates() method reduced the dataset from 20 rows to 19 rows.

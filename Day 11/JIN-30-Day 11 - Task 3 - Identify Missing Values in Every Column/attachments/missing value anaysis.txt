@@ -1,0 +1,53 @@
+1. Missing Value Analysis
+
+Objective: Identify missing values in the e-commerce dataset, investigate their possible causes, and apply appropriate handling techniques using Python and Pandas.
+
+Methods Used:
+
+df.isnull().sum() to calculate missing values in each column.
+
+df.isnull().mean() * 100 to calculate the percentage of missing values.
+
+pd.to_numeric() and pd.to_datetime() to identify invalid numeric and date values.
+
+fillna() and dropna() to handle missing values.
+
+Findings and Handling Strategies:
+
+Column
+
+Data-quality issue
+
+Handling strategy
+
+CustomerName
+
+Missing customer name
+
+Replaced with "Unknown"
+
+City
+
+Missing city information
+
+Replaced with "Unknown"
+
+Quantity
+
+Invalid value such as "two"
+
+Converted to numeric; invalid values handled using median imputation
+
+UnitPrice
+
+Currency symbols or invalid numeric values
+
+Removed currency symbols, converted to numeric, and handled invalid values
+
+OrderDate
+
+Invalid date such as "not-a-date"
+
+Converted to datetime; invalid date records removed
+
+Missing values may occur because customers do not provide optional information, transactions are incomplete, or data is imported incorrectly. After cleaning, df.isnull().sum() was used again to verify the results.
