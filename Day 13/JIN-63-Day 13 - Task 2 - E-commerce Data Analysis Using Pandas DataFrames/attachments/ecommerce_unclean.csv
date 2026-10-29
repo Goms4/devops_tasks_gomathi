@@ -1,0 +1,26 @@
+OrderID,Date,Region,Product,Units,UnitPrice,DiscountPct
+EC1001,2026-09-01,South,Laptop,2.0,52000,0.1
+EC1002,2026-09-02,West,Wireless Mouse,5.0,750,0.05
+EC1003,2026-09-03,North,Keyboard,3.0,1800,0.0
+EC1004,2026-09-04,East,Monitor,2.0,14500,0.1
+EC1005,2026-09-05,South,Headphones,4.0,3200,0.15
+EC1006,2026-09-06,West,Laptop,1.0,52000,0.05
+EC1007,2026-09-07,North,Monitor,3.0,14500,0.08
+EC1008,2026-09-08,East,Wireless Mouse,6.0,750,0.0
+EC1009,2026-09-09,South,Keyboard,2.0,1800,0.1
+EC1010,2026-09-10,West,Headphones,2.0,3200,0.05
+EC1011,2026-10-01,North,Laptop,2.0,52000,0.12
+EC1012,2026-10-02,East,Monitor,1.0,14500,0.0
+EC1013,2026-10-03,South,Wireless Mouse,10.0,750,0.1
+EC1014,not-a-date,West,Keyboard,4.0,1800,0.05
+EC1015,2026-10-05,North,Headphones,3.0,3200,0.2
+EC1016,2026-10-06,East,Laptop,1.0,52000,0.1
+EC1017,2026-10-07,South,Monitor,-2.0,14500,0.05
+EC1018,2026-10-08,West,Wireless Mouse,3.0,-750,0.0
+EC1019,2026-10-09,North,Keyboard,2.0,1800,1.2
+EC1020,2026-10-10,East,Headphones,,3200,0.1
+EC1021,2026-10-11,,Laptop,1.0,52000,0.05
+EC1022,2026-10-12,West,,2.0,1800,0.0
+EC1023,2026-10-13,South,Monitor,3.0,14500,-0.1
+EC1024,2026-10-14,North,Wireless Mouse,4.0,750,0.05
+EC1005,2026-09-05,South,Headphones,4.0,3200,0.15
