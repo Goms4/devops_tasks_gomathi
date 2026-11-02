@@ -1,0 +1,11 @@
+ORDER_ID,PRODUCT,QUANTITY,UNIT_PRICE,CITY
+1001,Laptop,2,65000.0,Chennai
+1002,Wireless Mouse,5,799.0,Bengaluru
+1003,Keyboard,3,1499.0,Hyderabad
+1004,Monitor,1,12500.0,Mumbai
+1005,USB-C Hub,4,2199.0,Chennai
+1006,Headphones,2,3499.0,Pune
+1007,Webcam,3,2799.0,Delhi
+1008,External SSD,2,5999.0,Kochi
+1009,Mechanical Keyboard,1,5499.0,Coimbatore
+1010,Laptop Stand,6,999.0,Jaipur
